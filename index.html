@@ -1,71 +1,78 @@
-<html>
-<head>
-    <title>My Achievements</title>
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- HTML Specifics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title of the Webpage -->
+    <title>Ayush Bhatt</title>
+
+    <!-- Reference to Bootstrap CSS Files -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./headers.css" rel="stylesheet">
+    <link href="./heroes.css" rel="stylesheet">
+
     <style>
-        img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-    </style>
-    <style>
-      .sideDiv {
-        border: 1px outset black;
-        background-color: white;
-        text-align: center;
-        width: 120;
-        height: 400;
+      .breaker{
+        width: 100%;
+        height: 50px;
       }
     </style>
-    <style>
-      .mainDiv {
-        border: 1px outset black;
-        background-color: white;
-        text-align: left;
-        width: 1220;
-        height: 400;
-      }
-    </style>
-    <a href="https://ayushbhatt.in"><img src="AyushLogo.png" alt="logo" height="9%" width="9%" style="float:left"></a>
-    <br> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/About-Me"><button>About Me</button></a> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/My-Achievements"><button>My Achievements</button></a> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/Contact-Me"><button>Contact Me</button></a> <br><br>
-    <hr>
-</head>
-<body bgcolor="lightblue">
-  <div style="display: flex; flex-direction: row;" hidden>
-    <div class="sideDiv" style="background-color: lightgreen;">
-      <br> <a href="https://ayushbhatt.in"><button>Home Page</button></a>
-      <br> <br> <a href="https://ayushbhatt.in/Games"><button>Games</button></a>
-    </div> &nbsp;
-    <div class="mainDiv" style="background-color:bisque;">
-      Here are some of my Achievements :-
-       <br> <br>
-       - Made this website in 7 days without any help from scratch.
-       <br> <br>
-       - Certified Android and IOS Developer from WhiteHatJr. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://obj.whitehatjr.com/4a3d71ef-e720-4a99-b9f1-e1dadbbe9eb2.pdf"><button>View the certificate here</button></a>
-       <br> <br>
-       - Certified Game Developer from WhiteHatJr. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a><button>View the certificate here</button></a>
-       <br> <br>
-       - Acheived Taekwondo Red belt in 1 year.
-       <br> <br>
-       - Learnt VBA within 3 weeks.
-       <br> <br>
-       - Read 100+ Science Fiction and Non-Science Fiction titles.
-       <br> <br>
-       - Remade retro game called Atari Breakout within 2 weeks.
-       <br> <br>
-       - Taekwondo state-level gold medalist.
-    </div>
-  </div>
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  chat-icon="https:&#x2F;&#x2F;www.google.com&#x2F;imgres?imgurl=https%3A%2F%2Fscx2.b-cdn.net%2Fgfx%2Fnews%2Fhires%2F2019%2F3-robot.jpg&ampimgrefurl=https%3A%2F%2Ftechxplore.com%2Fnews%2F2021-01-ces-robots.html&amptbnid=k5j75H3TlCaAiM&ampvet=12ahUKEwi80YrJkf3wAhX6k0sFHdrrBJYQMygKegUIARDsAQ..i&ampdocid=0DMYMUlwbbntyM&ampw=1920&amph=1771&ampq=robot&ampved=2ahUKEwi80YrJkf3wAhX6k0sFHdrrBJYQMygKegUIARDsAQ"
-  intent="WELCOME"
-  chat-title="WebAgent"
-  agent-id="ecf17201-eb5b-4308-afa7-508d27e12b07"
-  language-code="en"
-></df-messenger>
-</body>
+
+  </head>
+  <body style="background-color:white">
+      <!-- Top Navigation Bar -->
+      <div class="container" style="background-color:white">
+        <header class="d-flex flex-wrap justify-content-center py-2 mb-3 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          
+            <span class="fs-4">Ayush Bhatt</span>
+          </a>
+
+          <!-- Page Link Names and URLs -->
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Achievements</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">My Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact me</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <!-- Breaker -->
+      <div style="background-color: lightgrey;" class="breaker"></div>
+
+      <!-- The Center of Attention -->
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Been there, done all this</h1>
+        <div class="col-lg-6 mx-auto">
+        <ul>
+          <li style="text-align:left">Completed building my first website in under a week.</li>
+          <li style="text-align:left">Upgraded the same website from pure HTML to Bootstrap in about 3 days</li>
+          <li style="text-align:left">Achieved Taekwondo Red Belt in under an year.</li>
+          <li style="text-align:left">Learnt basics of VBA in under 3 weeks.</li>
+          <li style="text-align:left">Remade Atari Breakout in under 2 weeks.</li>
+          <li style="text-align:left">Taekwondo state-level gold medalist.</li>
+          <li style="text-align:left">Certified <a href="/">Android and iOS developer from WHiteHatJr.</a></li>
+          <li style="text-align:left">Certified <a href="/">Game Developer from WhiteHatJr.</a></li>
+        </ul>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        </div>
+        </div>
+      </div>
+
+      <!-- End of page -->
+      <div style="background-color: lightslategray">
+        <br>
+        <p style="text-align:center;color:black;font-size:13px;">This site uses Bootstrap.</p>
+        <br><br><br><br><br><br>
+      </div>
+    </main>
+    
+    <!-- Link to Bootstrap JS File -->
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
 </html>
